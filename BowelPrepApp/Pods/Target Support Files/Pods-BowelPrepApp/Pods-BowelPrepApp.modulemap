@@ -1,0 +1,6 @@
+framework module Pods_BowelPrepApp {
+  umbrella header "Pods-BowelPrepApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

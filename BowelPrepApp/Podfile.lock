@@ -1,0 +1,16 @@
+PODS:
+  - BEMCheckBox (1.2.1)
+  - BTNavigationDropdownMenu (0.3)
+  - pop (1.0.9)
+
+DEPENDENCIES:
+  - BEMCheckBox
+  - BTNavigationDropdownMenu
+  - pop (~> 1.0)
+
+SPEC CHECKSUMS:
+  BEMCheckBox: 264b8b72aa92adbfefa265cc58a0cdb86b207b9f
+  BTNavigationDropdownMenu: c36d20785253699046fdd295698c24b1d1c18f53
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Card" customModule="BowelPrepApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="389" height="185"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BPY-NF-BTK">
+                    <rect key="frame" x="16" y="5" width="357" height="175"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="▷" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ujb-Jz-lmF">
+                            <rect key="frame" x="318" y="16" width="23" height="143"/>
+                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GG2-Fy-MEM">
+                            <rect key="frame" x="16" y="16" width="277" height="143"/>
+                            <fontDescription key="fontDescription" type="system" weight="thin" pointSize="18"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="ujb-Jz-lmF" firstAttribute="top" secondItem="BPY-NF-BTK" secondAttribute="top" constant="16" id="2IC-tR-2Ai"/>
+                        <constraint firstItem="GG2-Fy-MEM" firstAttribute="top" secondItem="BPY-NF-BTK" secondAttribute="top" constant="16" id="KKE-L3-rTJ"/>
+                        <constraint firstItem="ujb-Jz-lmF" firstAttribute="leading" secondItem="GG2-Fy-MEM" secondAttribute="trailing" constant="25" id="KPm-Ao-FYd"/>
+                        <constraint firstAttribute="trailing" secondItem="GG2-Fy-MEM" secondAttribute="trailing" constant="64" id="PH3-ls-jwt"/>
+                        <constraint firstItem="GG2-Fy-MEM" firstAttribute="leading" secondItem="BPY-NF-BTK" secondAttribute="leading" constant="16" id="Sa0-5v-pDO"/>
+                        <constraint firstAttribute="trailing" secondItem="ujb-Jz-lmF" secondAttribute="trailing" constant="16" id="g7H-OA-JzM"/>
+                        <constraint firstAttribute="bottom" secondItem="ujb-Jz-lmF" secondAttribute="bottom" constant="16" id="pWj-JA-msS"/>
+                        <constraint firstAttribute="bottom" secondItem="GG2-Fy-MEM" secondAttribute="bottom" constant="16" id="z3c-wz-cdX"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="BPY-NF-BTK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="4TX-5Q-Cf0"/>
+                <constraint firstItem="BPY-NF-BTK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="8er-6O-EJ4"/>
+                <constraint firstAttribute="bottom" secondItem="BPY-NF-BTK" secondAttribute="bottom" constant="5" id="aNr-p8-H5z"/>
+                <constraint firstAttribute="trailing" secondItem="BPY-NF-BTK" secondAttribute="trailing" constant="16" id="dIF-ea-3pe"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="insideView" destination="BPY-NF-BTK" id="baS-XH-jSu"/>
+                <outlet property="label" destination="GG2-Fy-MEM" id="qWo-9q-4es"/>
+            </connections>
+            <point key="canvasLocation" x="374.5" y="266.5"/>
+        </view>
+    </objects>
+</document>

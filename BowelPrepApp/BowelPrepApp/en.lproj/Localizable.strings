@@ -1,0 +1,306 @@
+/* 
+  Localizable.strings
+  BowelPrepApp
+
+  Created by Guangsha Mou on 3/21/16.
+  Copyright © 2016 UCDMC Bowel Prep. All rights reserved.
+*/
+
+/** Appointment medication strings **/
+"Are you taking any blood thinner?" = "Are you taking any blood thinner?";
+"Are you taking any pain reliever?" = "Are you taking any pain reliever?";
+"Are you taking any insulin?" = "Are you taking any insulin?";
+"Med1" = "Blood Thinner";
+"Med2" = "Pain Reliever";
+"Med3" = "Insulin";
+"No medication conflict" = "No medication conflict";
+
+/** Instruction localized strings **/
+"Day 1 Instruction 1" = "Begin a clear liquid diet the day before your exam (any liquid you could see through, except alcohol). It is important to drink clear liquids throughout the day. You may have water, black coffee, tea, broth, Gatorade, soda, juice, popsicles, Jell-O (not red in color) or anything else you can see through. You may also have hard candies.";
+
+"Day 1 Instruction 2" = "Do not eat solid foods. Do not drink milk, shakes, protein shakes, or anything that contains fats.";
+
+"Day 1 Instruction 3" = "If you are a diabetic and using insulin or are taking oral diabetic medications, contact your primary care doctor for instructions on adjusting these medications prior to the day of your procedure.";
+
+"Day 1 Instruction 4" = "The solution instructions were also mailed or given with these instructions. Following the instructions on how to prepare the prep before taking it.";
+
+"Day 1 Instruction 5" = "Take the prep as instructed on the solution instruction sheet.";
+
+"Day 1 Instruction 6" = "Keep drinking clear liquids up to 4 hours prior to your procedural start time.";
+
+"Day 1 Instruction 7" = "";
+
+"Day 2 Instruction 1" = "Do not eat foods that contain seeds, nuts, corn or salad; nut based spreads such as peanut butter or Nutella, and popcorn.";
+
+"Day 2 Instruction 2" = "Do not take iburprofein (motrin), Advil, Aleve, Naprosyn, or any other medication containing NSAIDs (Vioxx, Celebrex), 5 days prior to your procedure, or your procedure will be cancelled.";
+
+"Day 2 Instruction 3" = "If you take medications to thin your blood such as, aspirin, heparin, coumadin, plavix, warfarin, robaxin, (or other medications similar to these), the doctor who prescribed the medication must inform you whether you can stop taking these medication 5 days prior to your procedure date. In some cases you may continue to take the medication but you must check with your doctor first. Otherwise, your procedure will be cancelled.";
+
+"General Instruction 1" = "You must arrive on time, or your procedure will be cancelled.";
+
+"General Instruction 2" = "You must have a person, who will drive you home with you at the time of check in, and your driver must stay in the hospital, or your procedure will be cancelled.";
+
+"General Instruction 3" = "If you are unable to keep you appointment, you must cancel within 48 hours or you will not be rescheduled.";
+
+/** FAQ localized strings **/
+
+// dop = day of procedure
+"dop.question1" = "What time do I need to show up to my appointment?";
+"dop.answer1" = "At least 30 minutes before time of your procedure start. This is to help do the following:\n\n1. Check you in\n\n2. The nurse will obtain a brief history\n\n3. The doctor will go over the consent form, which you need to sign\n\n4. You will chance into a hospital gown\n\n5. The nurse will place an IV in your hand, so that you can get medicines for sedation";
+
+"dop.question2" = "Am I going to be awake or sedated? Will I feel pain during the procedure?";
+"dop.answer2" = "You will be sedated for the procedure, which should prevent you from feeling pain. You may feel a little bloating during the procedure, and some feel discomfort during certain parts of the colonoscopy";
+
+"dop.question3" = "How will I be sedated for the procedure? ";
+"dop.answer3" = "The nurse will place an IV line in your arm, and medications will be given through this IV to sedate you";
+
+"dop.question4" = "How long does the test take?";
+"dop.answer4" = "The test usually takes about 15-30 minutes, but the check –in and recovery phases take more time. On average you should expect to spend between 4-5 hours in the facility, though this may vary. ";
+
+"dop.question5" = "What happens after the procedure? ";
+"dop.answer5" = "You will be brought to the recovery area, which is usually a few feet outside the procedure room. You will rest here for anywhere between 15 minutes to an hour, depending on how long it takes for you to wake up from the sedation you received. After this the nurse will remove your IV line, and you will get dressed. Your ride will have to then drive you back home, since you cannot drive.\n\nSome patients may experience bloating or pass gas for hours after the procedure. This is normal and is because air was pumped into your colon during the procedure in order to make sure all areas of the colon were adequately examined.\n\nSome patients may also notice a small amount of blood with the first bowel movement after the exam. This is usually not a cause for concern. However, if you continue to pass blood or blood clots, have a fever above 100 degree Fahrenheit (38.7 C), have severe abdominal pain, then please call your doctor’s office or the on-call person, as these symptoms may indicate ongoing bleeding, or a perforation.";
+
+"dop.question6" = "When will I get to know about the result of the polyps removed during my colonoscopy? ";
+"dop.answer6" = "If polyps were removed during your colonoscopy, your doctor’s office will contact you with the results via email, letter or telephone 1 week to 3 weeks after your procedure. At this time, you will be informed if the polyps removed contained benign cells, or precancerous/cancerous cells. You will also be informed if you need a repeat colonoscopy, and when exactly you will need the repeat colonoscopy. ";
+
+// bpl = bowel prep liquid
+"bpl.question1" = "What is a bowel prep? ";
+"bpl.answer1" = "Bowel prep is a liquid medicine that is required to flush out stool and clean the colon, so that no polyps or other findings are missed during the colonoscopy.";
+
+"bpl.question2" = "I haven't had a bowel movement after drinking half of the split preparation? Should I be worried? Do I need to reschedule my colonoscopy?";
+"bpl.answer2" = "Drinking enough fluids along with the bowel prep liquid is usually sufficient to get you going. Some patients start having diarrhea within minutes of drinking, while other start going after an hour. However, if you suffer from constipation, it may be harder for you to start going, and your colon may be slower to respond.\n\nIf you have not had a bowel movement even after 3 hours of drinking the bowel prep, drink more fluids.  Remember that you should drink about 12 tall glasses of clear liquids throughout the day in addition to the bowel prep liquid. If this does not work, start drinking the second part of the bowel prep, and continue to drink fluids.\n\nIf this does not work either, then call the on-call GI Fellow, since you may need additional medication to help you clean the colon.";
+
+"bpl.question3" = "I cannot tolerate the bowel preparation. I am having nausea and throwing up the prep, what should I do? Do I have to finish the entire bowel preparation?";
+"bpl.answer3" = "YES\n\nIt is very important that you finish your prep. If not the colon will not be clean during the procedure, and the physician will have to cancel and reschedule your procedure.\n\nHere are some tips to help you better tolerate the bowel prep:\n\n1. Chill/refrigerate the bowel prep liquid to make it more palatable\n\n2. You can add Crystal Ligth (not red) for better flavor\n\n3. Use a straw to sip\n\n4. Rinse your mouth or brush your teeth in between to overcome the nausea\n\n5. Suck on hard candy to overcome nausea\n\n6. You can alternate the bowel prep with sips of diet soda, Crystal Light (avoid red) or Ginger Ale (but avoid sugary drinks if you are diabetic, diet drinks are okay if you are diabetic)\n\n7. You can take a break for 30 minutes and restart\n\n8. If all these fail, or if you are throwing up, then call the on-call Fellow";
+
+"bpl.question4" = "I'm having clear stools after drinking half of the bowel preparation. Do I need to finish the rest of the bowel preparation?";
+"bpl.answer4" = "Yes, you should. Though your bowels may have cleared up now, by tomorrow when you arrive for your procedure, your body will have passed more stools into your colon, especially the right side of the colon. This will lead to chance of having to cancel your procedure, reschedule your procedure, missed lesions or cancers in the colon, and increased risk of causing a perforation since the physician will not be able to see clearly inside the colon.";
+
+"bpl.question5" = "If my colonoscopy is in the afternoon, when should I finish the second half of the bowel preparation?";
+"bpl.answer5" = "You should have finished your bowel preparation at least 2 hours before procedure. Drinking till the last minute will cause the bowel prep liquid to remain in your stomach at the time of your procedure. This can be very dangerous, since this liquid can then reflux into your lungs and cause a very serious pneumonia (called aspiration pneumonia). ";
+
+"bpl.question6" = "If my colonoscopy is in the early morning, when should I finish the second half of the bowel preparation? ";
+"bpl.answer6" = "You should have finished your bowel preparation at least 2 hours before procedure. Drinking till the last minute will cause the bowel prep liquid to remain in your stomach at the time of your procedure. This can be very dangerous, since this liquid can then reflux into your lungs and cause a very serious pneumonia (called aspiration pneumonia). ";
+
+"bpl.question7" = "Do I have to split the dose of the bowel preparation and why? Can't I just drink it all at once? ";
+"bpl.answer7" = "Yes, you should split the dose. Drinking it all at once may clear out your colon. But by tomorrow when you arrive for your procedure, more stool will have accumulated in your colon, especially the right side of the colon. This will lead to chance of having to cancel your procedure, reschedule your procedure, missed lesions or cancers in the colon, and increased risk of causing a perforation since the physician will not be able to see clearly inside the colon. ";
+
+"bpl.question8" = "What can I do to make the bowel preparation taste more tolerable? ";
+"bpl.answer8" = "1. Chill/refrigerate the bowel prep liquid to make it more palatable\n\n2. You can add Crystal Ligth (not red) for better flavor\n\n3. Use a straw to sip\n\n4. Rinse your mouth or brush your teeth in between to overcome the nausea\n\n5. Suck on hard candy to overcome nausea\n\n6. You can alternate the bowel prep with sips of diet soda, Crystal Light (avoid red) or Ginger Ale (but avoid sugary drinks if you are diabetic, diet drinks are okay if you are diabetic)\n\n7. You can take a break for 30 minutes and restart\n\n8. If all these fail, or if you are throwing up, then call the on-call Fellow";
+
+"bpl.question9" = "I am ill with (cold, flu, UTI) and don't feel well and don't think I can tolerate the bowel prep, what should I do?";
+"bpl.answer9" = "Please reschedule your procedure. We are sorry to hear that you are not feeling well. Due to your illness you may not have the strength to complete the bowel prep, or may not be able to tolerate the medicines we usually give you to sedate you during your colonoscopy.\n\nDepending on the center you are scheduled at, you can call the following number(s):\n\n1. UC Davis Medical Center, 2315 Stockton Blvd 95817. Phone (916) 734-1737; after hours call 916-734-2011 (ask for GI Fellow on-call)\n\n2. Elk Grove PCN, 8110 Laguna Blvd, Elk Grove 95758. Phone (916) 683-3942; after hours call 916-734-2011 (ask for GI Fellow on-call)\n\n3. Folsom PCN, 271 Turn Pike Drive, Folsom 95630. Phone (916) 985-9300, option 3 followed by option 2; after hours call 916-734-2011 (ask for GI Fellow on-call)\n\n4. Rocklin PCN, Rocklin – 550 West Ranch View Road, Suite 1100, Rocklin 95765. Phone (916) 295-5700;after hours call 916-734-2011 (ask for GI Fellow on-call)";
+
+"bpl.question10" = "What does a complete bowel preparation look like? How do I know if I am cleaned out after following all the instructions?";
+"bpl.answer10" = "need to use picture";
+
+"bpl.question11" = "What are the side effects of the bowel prep?";
+"bpl.answer11" = "You will have lots of diarrhea, which may start within minutes of you starting to drink the bowel prep. So plan to stay home and close to the toilet.\n\nMost people with have abdominal bloating and discomfort. This is expected, but symptoms should not be severe.\n\nSome people experience nausea, but do not usually throw up\n\nMost people feel slightly sore around their anus, and sometime their hemorrhoids can bleed. Using baby wipes";
+
+"bpl.question12" = "Do I have to drink the whole solution? If I am small, will I still need the same amount?";
+"bpl.answer12" = "Yes, you will still need to finish the entire bowel prep.";
+
+"bpl.question13" = "When do I stop drinking clear liquid? ";
+"bpl.answer13" = "At least 2 hours before your test";
+
+// fad = food and drink
+"fad.question1" = "The instructions state I cannot have any clear liquids that are red. However can I eat orange jello?";
+"fad.answer1" = "Any color other than red is okay.\n\nRed can sometimes mimic blood in the colon, and result in misdiagnosis/confusion";
+
+"fad.question2" = "Does beer (or other forms of alcohol) count under the clear liquid diet? Can I have beer? ";
+"fad.answer2" = "No.\n\nAlcohol leads to dehydration by causing excessive urination.\n\nAlcohol will impair your ability to understand and sign the procedure consent forms for your colonoscopy.\n\nAlcohol can interact with the sedatives given during the colonoscopy, and could lead to dangerous complications such as slowing down of your respiration. ";
+
+"fad.question3" = "I just read the instructions the night before the procedure and I noticed that we were not supposed to eat seeds/nuts. I ate seeds/nuts yesterday. Do I need to reschedule my colonoscopy?\n\nAlternatively: I just read the instructions the night before the procedure and I noticed that we were not supposed to eat leafy greens. I had a salad yesterday. Do I need to reschedule my colonoscopy?";
+"fad.answer3" = "Chances are you will have an incomplete colonoscopy, so it is best to reschedule. However, there is also a small chance that the physician may be able to complete the procedure.";
+
+"fad.question4" = "I ate sesame seeds on a toast bun. Do I need to reschedule my colonoscopy?";
+"fad.answer4" = "Not if you had it only once.";
+
+"fad.question5" = "If my colonoscopy is in the afternoon, can I start my clear liquid diet in the afternoon the day before the procedure?";
+"fad.answer5" = "No, start in the morning. This gives you the best chance for a clean colon during the procedure.";
+
+"fad.question6" = "What is a clear liquid?";
+"fad.answer6" = "Any liquid you can see through (you should be able to read printed material through it), is a clear liquid. Examples are apple juice (but not apple cider)\n\nOther examples are- soda pop, water, mineral water, black coffee or tea (without milk) , Gatorade, powerade.";
+
+"fad.question7" = "What foods are to be avoided? ";
+"fad.answer7" = "Any food with fiber in it or milk in it. For example-\n\nMilkshakes, coffee with cream, pineapple juice, orange juice, milk, buttermilk, yoghurt, bread, grains, rice, cereals, pasta, soup with chunks of food or meat, meat, cheese, butter, vegetables, fruits, ";
+
+"fad.question8" = "What foods are okay to eat? ";
+"fad.answer8" = "Honey, Jello, clear broth (no chunks of meat or food in it), popsicles, hard candy.";
+
+"fad.question9" = "How much fluid should I drink in addition to the bowel prep liquid?";
+"fad.answer9" = "Ideally you should drink about 12 tall glasses (8-10 ounce glass) of fluids throughout the day.";
+
+"fad.question10" = "Can I only do 24 hours of no solid food?";
+"fad.answer10" = "No";
+
+"fad.question11" = "My friend ate, but did fine. Can I?";
+"fad.answer11" = "Please do not.";
+
+// med = medication
+"med.question1" = "I have diabetes and am on insulin / oral medications. How should I take my medication?";
+"med.answer1" = "Since you will be on a restricted diet the day before procedure, you should take half the dose of your diabetes medications and/or insulin the day before the procedure, and none of the diabetes medications/insulin on the day of the procedure. Please clarify this with your primary care physician or diabetes specialist.";
+
+"med.question2" = "I'm on aspirin/Plavix/clopidogrel what should I do with those medications? ";
+"med.answer2" = "You should discuss this with your primary care provider and/or your cardiologist (if you seen one) at least 1 week before your colonoscopy date.\n\nWhile some people can safely hold these medications for 5 days, others cannot stop them at all, to avoid complications such as a heart attack or stroke.\n\nIf your primary care provider or cardiologist agrees that you can safely hold the medication(s), then please stop 5 days in advance. For this reason, it is very important that you discuss this issue with your primary care provider and/or cardiologist at least 1 week ahead of your colonoscopy, or even sooner.\n\nYou should be able to resume these medications after your colonoscopy, unless your gastroenterologist advises you not to. If so, please make sure to ask when you can safely resume the medication. ";
+
+"med.question3" = "I'm on Coumadin/warfarin/other blood thinning medication such as Pradaxa/dabigatran/Effient/prasugrel/rivoraxaban/Xarelto/apixaban/Eliquis; what should I do with those medications?";
+"med.answer3" = "These medicines can increase the risk of bleeding if polyps are removed during your colonoscopy.\n\nYou should discuss this with your primary care provider and/or your cardiologist (if you seen one) at least 1 to 2 weeks before your colonoscopy date.\n\nWhile some people can safely hold these medications for 5 days, others cannot stop them at all, to avoid complications such as a heart attack or stroke.\n\nIf your primary care provider or cardiologist agrees that you can safely hold the medication(s), then please stop 5 days in advance. For this reason, it is very important that you discuss this issue with your primary care provider and/or cardiologist at least 1 week ahead of your colonoscopy, or even sooner.\n\nYou should be able to resume these medications after your colonoscopy, unless your gastroenterologist advises you not to. If so, please make sure to ask when you can safely resume the medication. ";
+
+"med.question4" = "I take an anti-inflammatory medicine, like Motrin/ibuprofen/Aleve/Advil/Naprosyn/Naproxen; what should I do with those medications?";
+"med.answer4" = "Please check with your primary care physician or prescribing doctor if you can hold these medications for 5 days before your colonoscopy. These medications can increase the risk of bleeding if polyps are removed from your colon. If you cannot stop these medications without being in severe pain, please inform the gastroenterology team that will perform your colonoscopy.";
+
+"med.question5" = "I didn't read the instructions and I am on aspirin or a blood thinner and have taken my doses up until today, what should I do?";
+"med.answer5" = "Call the GI advice nurse line or on-call Fellow (if after hours). Depending on the center you are scheduled at, you can call the following number(s):\n\n1. UC Davis Medical Center, 2315 Stockton Blvd 95817. Phone (916) 734-1737; after hours call 916-734-2011 (ask for GI Fellow on-call)\n\n2. Elk Grove PCN, 8110 Laguna Blvd, Elk Grove 95758. Phone (916) 683-3942; after hours call 916-734-2011 (ask for GI Fellow on-call)\n\n3. Folsom PCN, 271 Turn Pike Drive, Folsom 95630. Phone (916) 985-9300, option 3 followed by option 2; after hours call 916-734-2011 (ask for GI Fellow on-call)\n\n4. Rocklin PCN, Rocklin – 550 West Ranch View Road, Suite 1100, Rocklin 95765. Phone (916) 295-5700;after hours call 916-734-2011 (ask for GI Fellow on-call)";
+
+"med.question6" = "I take fish oil, what should I do?";
+"med.answer6" = "STOP it for at least 2 days before the test. You can restart it after the test. Fish oil can stick to the camera and makes the colon appear hazy. This can lead to polyps being missed in the colon. ";
+
+"med.question7" = "What if I take blood pressure medicine(s)?";
+"med.answer7" = "Please continue to take them as prescribed by your doctor. On the day of your procedure, take the medicine(s) with a sip of water. Not taking the medication can cause your blood pressure to be very high and sometimes may lead to your test having to be cancelled. You can also talk to your primary care physician for more instructions about this.";
+
+// acc = About Colonoscopy and Cancer
+"acc.question1" = "What is the colon?";
+"acc.answer1" = "The colon is also called the large intestine. It is last part of our digestive system. By the time food enters the colon, most of the nutrients have been extracted by the body, and only undigested food matter and fluid remains. The colon extracts the fluid, and only undigested food material is left, which is nothing but stool. ";
+
+"acc.question2" = "What is a colonoscopy?";
+"acc.answer2" = "Colonoscopy is a procedure to look inside the colon using a long flexible tube called a colonscope. This tube has a camera at its end, which transmits images of the colon onto a monitor (just like the television monitor). The physician can thus see inside the colon if there are any growths (such as polyps or cancers). Polyps can be removed during the colonoscopy, and thereby prevent them from growing into a cancer. If a cancerous growth is found then biopsies can be obtained to confirm the diagnosis, and help make plans for management of the cancer (by means of surgery, chemotherapy, etc)";
+
+"acc.question3" = "Can I get colon cancer? How common is colon cancer?";
+"acc.answer3" = "Colon cancer is the 3rd most common cancer in the USA. It affects both males and females.\n\nColon cancer is the 2nd leading cause of cancer related death.\n\n(Source: www.cancer.org) ";
+
+// adc = Address, direction, cancelation
+"adc.question1" = "I have to cancel my colonoscopy; do I just talk to you? ";
+"adc.answer1" = "If due to unavoidable circumstances you have to cancel your appointment, call us ASAP, so that we can provide your appointment to someone else who needs it urgently. In addition we will help reschedule your appointment.\n\nDepending on the center you are scheduled at, you can call the following number(s):\n\n1. UC Davis Medical Center, 2315 Stockton Blvd 95817. Phone (916) 734-1737; after hours call 916-734-2011 (ask for GI Fellow on-call)\n\n2. Elk Grove PCN, 8110 Laguna Blvd, Elk Grove 95758. Phone (916) 683-3942; after hours call 916-734-2011 (ask for GI Fellow on-call)\n\n3. Folsom PCN, 271 Turn Pike Drive, Folsom 95630. Phone (916) 985-9300, option 3 followed by option 2; after hours call 916-734-2011 (ask for GI Fellow on-call)\n\n4. Rocklin PCN, Rocklin – 550 West Ranch View Road, Suite 1100, Rocklin 95765. Phone (916) 295-5700;after hours call 916-734-2011 (ask for GI Fellow on-call)";
+
+"adc.question2" = "Can I drive myself for the test?";
+"adc.answer2" = "NO. The medicines you are given to help keep your comfortable during the procedure, makes you sleepy. This also impairs your ability to drive, and puts you and other on the road at risk for accidents. You must have an escort to drive you to our clinic and back home.";
+
+"adc.question3" = "How long does the test take?";
+"adc.answer3" = "The test usually takes about 15-30 minutes, but the check –in and recovery phases take more time. On average you should expect to spend between 4-5 hours in the facility, though this may vary.";
+
+//Checklist for the appointment view
+"1to2wks.item1" = "Arrange to take off work for on the day of your colonoscopy";
+"1to2wks.item2" = "Arrange for friend or family member to take you to and from for your colonoscopy";
+"1to2wks.item3" = "Fill your colonoscopy prep prescription (bowel prep prescription) at your pharmacy";
+"1to2wks.item4" = "Stock up essentials for the prep- toilet paper, wet wipes, clear liquids to drink, magazines, crossword puzzles, movies/DVDs to watch to stay occupied while you prep";
+"1to2wks.item5" = "Read your instructions, and clarify any doubts with your doctor’s office";
+"1to2wks.item6" = "Review your medications for any that may conflict with your colonoscopy. Talk to your doctor’s office for any questions you may have. Some of these medicines may need to be stopped at least 5 days prior to colonoscopy. ";
+"1to2wks.item7" = "Start hydrating even before your bowel prep. You lose plenty of fluids during the prep, so it is better to stay hydrated earlier.";
+"5daysbefore.item1" = "Start your colonoscopy diet- remember to avoid nuts, seeds, salads, corn, peanut butter (all fiber-containing foods).";
+"5daysbefore.item2" = "Look at your medication list and avoid medications known to increase risk of bleeding, or causing an incomplete bowel preparation (like iron), after discussion with your doctor’s office";
+"1daybefore.item1" = "Breakfast- clear liquids only (no solid food)";
+"1daybefore.item2" = "Lunch- clear liquids only (no solid food)";
+"1daybefore.item3" = "Dinner- clear liquids only (no solid food)";
+"1daybefore.item4" = "Drink at least 12 glasses of clear liquids throughout the day";
+"1daybefore.item5" = "Alter your diabetes medications as instructed (if you are diabetic and take medications)";
+"1daybefore.item6" = "Wear pants that are easy to take off and put on repeatedly";
+"1daybefore.item7" = "Stay close to the bathroom";
+"1daybefore.item8" = "Use wet wipes instead of toilet paper- to avoid feeling sore/raw";
+"1daybefore.item9" = "Start drinking the 1st part of your bowel prep around 5-6 pm as instructed";
+"1daybefore.item10" = "Keep your clear liquid of choice handy to drink as instructed";
+"dayof.item1" = "Take the 2nd part of your bowel prep as instructed. You may have to wake up early to do this";
+"dayof.item2" = "Take your blood pressure medications as usual (if you take them)";
+"dayof.item3" = "Alter your diabetes medications as instructed (if you are diabetic and take medications)";
+"dayof.item4" = "Arrive on time for your procedure";
+
+//Preparation Method Instructions for each of the 5 Preparation Methods listed in Method.swift
+//Begin MoviPrep
+"moviprep.generalinfo" = "The MoviPrep® carton contains 4 pouches and a disposable container for mixing. You must complete the entire prep to ensure the most effective cleansing. Follow steps 1-3 for night dose. Repeat steps 1-3 for morning dose.";
+"moviprep.step1label" = "STEP 1: MIX DOSE";
+"moviprep.step2label" = "STEP 2: DRINK DOSE";
+"moviprep.step3label" = "STEP 3: DRINK CLEAR LIQUIDS";
+"moviprep.step1inst" = "Empty 1 Pouch A and 1 Pouch B into the disposable container. Add lukewarm drinking water to the top line of the container and mix. NOTE: You can mix solution ahead of time and refrigerate prior to drinking. The reconstituted solution should be used within 24 hours.";
+"moviprep.step2inst" = "The MoviPrep container is divided by 4 marks. Every 15 minutes, drink the solution down to the next mark (approximately 8 oz), until the full liter is consumed.";
+"moviprep.step3inst" = "Drink 16 oz of the clear liquid of your choice. This is a necessary step to ensure adequate hydration and an effective prep. Clear liquids include: water, clear fruit juices without pulp, including apple, white grape, or white cranberry, strained limeade or lemonade, coffee or tea (do not use dairy or non-dairy creamer), clear broth, clear soda, gelatin (without added fruit or topping), and popsicles (without pieces of fruit or fruit pulp). Ask your doctor if you have any questions about whether a particular drink is acceptable.";
+
+//Dr. Tejaswi's moviprep corrections
+
+"moviprep.5pm" = "At 5 pm the evening before your procedure: Prepare first dose of MoviPrep, by emptying one Pouch A and one Pouch B into the mixing container. Add lukewarm drinking water to the top line of the container. Mix well to dissolve the powder. Start drinking 8 oz (240 ml) of the solution every 15 minutes. You should have finished drinking the prepared solution by 6 pm, or within 1 hour of starting. It is important to drink rapidly (every 15 minutes), if not the solution will not work as intended. You have now finished the first dose (1 liter) of your split-prep regimen for the colon cleansing. Drink 16 oz (480 ml) of clear liquid of your choice.";
+"moviprep.procedureTime" = "4-5 hours before your procedure time: Prepare the 2nd dose of MoviPrep, by emptying one Pouch A and one Pouch B into the mixing container. Add lukewarm drinking water to the top line of the container. Mix well to dissolve the powder. Start drinking 8 oz (240 ml) of the solution every 15 minutes. You should have finished drinking the prepared solution within 1 hour of starting. It is important to drink rapidly (every 15 minutes), if not the solution will not work as intended. You have now finished the second dose (1 liter) of your split-prep regimen for the colon cleansing. Drink 16 oz (480 ml) of clear liquid of your choice.";
+
+
+
+//End MoviPrep
+
+//Begin "Nulytely ®/ GoLYTLELY ®/ Colyte ®"
+"nuly.firstDoselabel" = "1st Dose Day before procedure:";
+"nuly.firstDoseStartTime" = "Start Time: 5:00 to 6:00pm (evening before procedure)";
+"nuly.firstDose" = "Dose and Frequency: 8oz (240mL) every 10 minutes (total, 2 liters)";
+"nuly.firstDoseEndTime" = "End Time: ~2 hours after start time";
+"nuly.secondDoselabel" = "2nd Dose Day of procedure:";
+"nuly.secondDoseStartTime" = "Start Time: At least 4 -6 hours before procedure";
+"nuly.secondDose" = "Dose and Frequency: 8oz (240mL) every 10 minutes (Remaining 2 liters)";
+"nuly.secondDoseEndTime" = "End Time: ~2 hours after start time";
+
+//Dr. Tejaswi's nuly corrections
+"general" = "The current standard of care is to take a split bowel prep. This means that you have to take half of the preparation the evening before, and the rest of the preparation about 4-5 hours before your colonoscopy. There is conclusive scientific proof that this method results in a much better cleansing of your colon, thereby leading to less chances of missing findings in your colon, and less chances of you having to repeat the procedure due to an unclean colon.";
+"nuly.general" = "Add clean drinking water up to the top line on the bottle (4 liters total). Cap the bottle. Shake well to dissolve the powder. The mixed solution should appear clear and colorless. Refrigerate the solution till its time to start drinking it. Do not prepare your solution sooner than 48 hours before your procedure.";
+"nuly.5pm" = "At 5 pm the evening before your procedure, start drinking 8 oz (240 ml) of the solution every 10 minutes. You should have finished drinking half the solution by 7 pm, or within 2 hours of starting. It is important to drink rapidly (every 10 minutes), if not the solution will not work as intended. You have now finished the first dose (2 liters) of your split-prep regimen for the colon cleansing. Drink plenty of clear liquids to stay hydrated, but do not eat any solid food.";
+"nuly.procedureTime" = "4-5 hours before your procedure time, start drinking 8 oz (240 ml) of the solution every 10 minutes. You should have finished drinking the entire solution within 2 hours of starting. It is important to drink rapidly (every 10 minutes), if not the solution will not work as intended.";
+"additionalInfo" = "Please complete the entire bowel prep solution, if not your colon may not be clean enough, and your procedure may end being rescheduled or repeated. An unclean colon also increases the risk of perforation, missed cancers, etc. You cannot have anything to drink for at least 2 hours before the colonoscopy.";
+
+
+
+
+//End "Nulytely ®/ GoLYTLELY ®/ Colyte ®"
+
+//Begin Prepopik
+"prepopik.generalinfo" = "PREPOPIK® is a prescription medicine used by adults to clean the colon before a colonoscopy. PREPOPIK® cleans your colon by causing you to have diarrhea. Cleaning your colon helps your healthcare provider see the inside of your colon more clearly during your colonoscopy.";
+"prepopik.eveninglabel" = "The evening (5PM - 9 PM) before your colonoscopy procedure:";
+"prepopik.morninglabel" = "The morning of your procedure:";
+"prepopik.eveningstep1" = "Fill the dosing cup provided with cold water up to the lower (5-ounce) line. Pour in the contents of ONE (1) packet and stir for 2-3 minutes until dissolved. Drink the entire contents.";
+"prepopik.eveningstep2" = "Follow with FIVE (5) 8-ounce drinks of clear liquid, taken at your own pace within the next 5 hours, before bed.";
+"prepopik.morningstep1" = "Fill the dosing cup provided with cold water up to the lower (5-ounce) line. Pour in the contents of ONE (1) packet and stir for 2-3 minutes until dissolved. Drink the entire contents.";
+"prepopik.morningstep2" = "Follow with a MINIMUM of THREE (3) 8-ounce drinks of clear liquids. Finish all liquids at least 2 hours before your colonoscopy.";
+
+//Dr. Tejaswi's corrections on Prepopik
+"prepopik.5pm" = "At 5 pm the evening before your procedure: Prepare first dose of Prepopik, by pouring cold drinking water up to the lower line of the cup (5 oz of water). Pour contents of 1 packet into the water. Stir for 2-3 minutes to dissolve. Drink the entire content of the cup. Over the next 5 hours, drink five (5) 8 oz glasses of clear liquid. You have now finished the first dose of your split-prep regimen for the colon cleansing.";
+"prepopik.procedureTime" = "4-5 hours before your procedure time: Prepare the second dose of Prepopik, by pouring cold drinking water up to the lower line of the cup (5 oz of water). Pour contents of 1 packet into the water. Stir for 2-3 minutes to dissolve. Drink the entire content of the cup. Over the next 2 hours, drink three (3) 8 oz glasses of clear liquid. You have now finished the second and last dose of your split-prep regimen for the colon cleansing.";
+
+
+//End Prepopik
+
+//Begin Suprep
+"suprep.generalinfo" = "SUPREP Bowel Prep Kit is a split-dose (2-day) regimen. Both 6-ounce bottles are required for a complete prep.";
+"suprep.firstdoselabel" = "FIRST DOSE: Begin Step 1 the evening before your procedure. You must complete Steps 1 through 4 using one (1) 6-ounce bottle before going to bed.";
+"suprep.step1label" = "STEP 1: ";
+"suprep.step2label" = "STEP 2: ";
+"suprep.step3label" = "STEP 3: ";
+"suprep.step4label" = "STEP 4: ";
+"suprep.step1" = "Pour ONE (1) 6-ounce bottle of SUPREP liquid into the mixing container.";
+"suprep.step2" = "Add cool drinking water to the 16-ounce line on the container and mix. NOTE: Dilute the solution concentrate as directed prior to use.";
+"suprep.step3" = "Drink ALL the liquid in the container.";
+"suprep.step4" = "You must drink two (2) more 16-ounce containers of water over the next 1 hour.";
+"suprep.seconddoselabel" = "SECOND DOSE: Begin Step 1 the morning of your procedure. For this dose, repeat Steps 1 through 4 shown above using the other 6-ounce bottle. NOTE: You must finish drinking the final glass of water at least hour, or as directed, before your colonoscopy.";
+
+//Dr. Tejaswi's corrections on Suprep
+"suprep.5pm" = "At 5 pm the evening before your procedure: Prepare the first dose, by pouring one of the 6 oz bottle of Suprep into the mixing container. Pour cold drinking water to the 16 oz line on the container. Mix well to dissolve. Drink the entire content of the cup. Over the next 1 hour, drink two (2) more 16 oz glasses of clear water. You have now finished the first dose of your split-prep regimen for the colon cleansing.";
+"suprep.procedureTime" = "4-5 hours before your procedure time: Prepare the second dose, by pouring one of the 6 oz bottle of Suprep into the mixing container. Pour cold drinking water to the 16 oz line on the container. Mix well to dissolve. Drink the entire content of the cup. Over the next 1 hour, drink two (2) more 16 oz glasses of clear water. You have now finished the second and last dose of your split-prep regimen for the colon cleansing.";
+
+//End Suprep
+
+//Begin Halflytely
+"halflytely.noon" = "At noon the day before your colonoscopy: Take 2 bisacodyl 5 mg tablets with water.";
+"halflytely.5pm" = "At 5 pm the evening before your procedure: Start drinking 8 oz (240 ml) of the solution every 10-15 minutes. You should have finished drinking half the solution by 6 pm, or within 1 hour of starting. It is important to drink rapidly (every 10-15 minutes), if not the solution will not work as intended. You have now finished the first dose (1 liter) of your split-prep regimen for the colon cleansing. Drink plenty of clear liquids to stay hydrated, but do not eat any solid food.";
+"halflytely.procedureTime" = "4-5 hours before your procedure time: Start drinking 8 oz (240 ml) of the solution every 10-15 minutes. You should have finished drinking the entire solution within 1 hour of starting. It is important to drink rapidly (every 10-15 minutes), if not the solution will not work as intended.";
+//End Halflytely
+
+
+// Disclaimer
+"disclaimer" = "This app contains medical information that is not intended to take place of advice from your doctor. If you have specific questions please consult your doctor.";
+//End Disclaimer
+
+// Notifications
+"moviprep.day1_3pm" = "At 5 pm the evening before your procedure: Prepare first dose of MoviPrep. Please click here for detailed instructions.";
+"nuly.day1_3pm" = "At 5 pm the evening before your procedure: Prepare first dose of Nuly. Please click here for detailed instructions.";
+"prepopid.day1_3pm" = "At 5 pm the evening before your procedure: Prepare first dose of Prepopik. Please click here for detailed instructions.";
+"suprep.day1_3pm" = "At 5 pm the evening before your procedure: Prepare the first dose of Suprep. Please click here for detailed instructions.";
+"halflytely.day1_3pm" = "At 5 pm the evening before your procedure: Prepare first dose of Halflytely. Please click here for detailed instructions.";
+
+"moviprep.day0_4pm" = "4-5 hours before your procedure time: Prepare the 2nd dose of MoviPrep. Please click here for detailed instructions.";
+"nuly.day0_4pm" = "4-5 hours before your procedure time: Prepare the 2nd dose of Nuly. Please click here for detailed instructions.";
+"prepopid.day0_4pm" = "4-5 hours before your procedure time: Prepare the 2nd dose of Prepopik. Please click here for detailed instructions.";
+"suprep.day0_4pm" = "4-5 hours before your procedure time: Prepare the 2nd dose of Suprep. Please click here for detailed instructions.";
+"halflytely.day0_4pm" = "4-5 hours before your procedure time: Prepare the 2nd dose of Halflytely. Please click here for detailed instructions.";
+//End Notifications

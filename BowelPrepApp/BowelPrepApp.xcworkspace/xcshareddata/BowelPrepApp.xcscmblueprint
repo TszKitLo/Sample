@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2A5AB55E4E3B279E6C8A10046F20EB32029A8A8E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2A5AB55E4E3B279E6C8A10046F20EB32029A8A8E" : 0,
+    "094E4FC6C0A4B77E9E7F22F4267E8BE0F3874911" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3F862AFF-3476-4B61-904E-C71C74CF604D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2A5AB55E4E3B279E6C8A10046F20EB32029A8A8E" : "bowel-preparation-app\/",
+    "094E4FC6C0A4B77E9E7F22F4267E8BE0F3874911" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BowelPrepApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BowelPrepApp\/BowelPrepApp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:huangkc2\/sharevent-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "094E4FC6C0A4B77E9E7F22F4267E8BE0F3874911"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:huangkc2\/bowel-preparation-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2A5AB55E4E3B279E6C8A10046F20EB32029A8A8E"
+    }
+  ]
+}

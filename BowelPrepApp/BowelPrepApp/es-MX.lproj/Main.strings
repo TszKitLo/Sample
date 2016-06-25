@@ -1,0 +1,87 @@
+
+/* Class = "UIButton"; normalTitle = "Blood Thinner, Insulin"; ObjectID = "4uP-ad-RBu"; */
+"4uP-ad-RBu.normalTitle" = "Blood Thinner, Insulin";
+
+/* Class = "UIBarButtonItem"; title = "Today"; ObjectID = "4ya-iS-kHz"; */
+"4ya-iS-kHz.title" = "Today";
+
+/* Class = "UIBarButtonItem"; title = "Remove Appointment"; ObjectID = "558-Eq-8ZD"; */
+"558-Eq-8ZD.title" = "Remove Appointment";
+
+/* Class = "UILabel"; text = "Are you taking pain reliever?"; ObjectID = "6Tv-5a-q6u"; */
+"6Tv-5a-q6u.text" = "Are you taking pain reliever?";
+
+/* Class = "UILabel"; text = "5 Days"; ObjectID = "7pz-Fb-W3p"; */
+"7pz-Fb-W3p.text" = "5 Days";
+
+/* Class = "UILabel"; text = "Question"; ObjectID = "9ek-7X-A1s"; */
+"9ek-7X-A1s.text" = "Question";
+
+/* Class = "UILabel"; text = "No Appointment"; ObjectID = "DfT-qu-yWo"; */
+"DfT-qu-yWo.text" = "No Appointment";
+
+/* Class = "UITabBarItem"; title = "Instruction"; ObjectID = "Ekl-W2-qRi"; */
+"Ekl-W2-qRi.title" = "Instruction";
+
+/* Class = "UITextField"; placeholder = "Select Location"; ObjectID = "GWf-o8-eca"; */
+"GWf-o8-eca.placeholder" = "Select Location";
+
+/* Class = "UIButton"; normalTitle = "Edit\nAppointment"; ObjectID = "IX5-Ip-Lev"; */
+"IX5-Ip-Lev.normalTitle" = "Edit\nAppointment";
+
+/* Class = "UIButton"; normalTitle = "1234 A Street, Sacramento, CA"; ObjectID = "JbP-tN-i6f"; */
+"JbP-tN-i6f.normalTitle" = "1234 A Street, Sacramento, CA";
+
+/* Class = "UINavigationItem"; title = "FAQ"; ObjectID = "KFi-Za-Yak"; */
+"KFi-Za-Yak.title" = "FAQ";
+
+/* Class = "UILabel"; text = "Are you taking insulin?"; ObjectID = "O2w-g2-Xn3"; */
+"O2w-g2-Xn3.text" = "Are you taking insulin?";
+
+/* Class = "UITabBarItem"; title = "Appointment"; ObjectID = "QmU-cz-trz"; */
+"QmU-cz-trz.title" = "Appointment";
+
+/* Class = "UILabel"; text = "Today"; ObjectID = "RkD-mW-UIG"; */
+"RkD-mW-UIG.text" = "Today";
+
+/* Class = "UILabel"; text = "before your procedure"; ObjectID = "SX4-tS-X8c"; */
+"SX4-tS-X8c.text" = "before your procedure";
+
+/* Class = "UINavigationItem"; title = "Appointment"; ObjectID = "XKq-ci-F4q"; */
+"XKq-ci-F4q.title" = "Appointment";
+
+/* Class = "UILabel"; text = "Answer"; ObjectID = "XLJ-dC-Cee"; */
+"XLJ-dC-Cee.text" = "Answer";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "a1P-4k-yFt"; */
+"a1P-4k-yFt.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "March 31, 2016, 10:00AM"; ObjectID = "dCx-oe-soV"; */
+"dCx-oe-soV.normalTitle" = "March 31, 2016, 10:00AM";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "fQy-5N-GEt"; */
+"fQy-5N-GEt.normalTitle" = "Add";
+
+/* Class = "UITextField"; placeholder = "Select Time"; ObjectID = "fwy-kk-wjJ"; */
+"fwy-kk-wjJ.placeholder" = "Select Time";
+
+/* Class = "UISegmentedControl"; hXb-oO-t2d.segmentTitles[0] = "General"; ObjectID = "hXb-oO-t2d"; */
+"hXb-oO-t2d.segmentTitles[0]" = "General";
+
+/* Class = "UISegmentedControl"; hXb-oO-t2d.segmentTitles[1] = "5-2 days before"; ObjectID = "hXb-oO-t2d"; */
+"hXb-oO-t2d.segmentTitles[1]" = "5-2 days before";
+
+/* Class = "UISegmentedControl"; hXb-oO-t2d.segmentTitles[2] = "1 day before"; ObjectID = "hXb-oO-t2d"; */
+"hXb-oO-t2d.segmentTitles[2]" = "1 day before";
+
+/* Class = "UILabel"; text = "Are you taking any blood thinner?"; ObjectID = "qqJ-ai-iJz"; */
+"qqJ-ai-iJz.text" = "Are you taking any blood thinner?";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "sA2-FN-tuN"; */
+"sA2-FN-tuN.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "FAQ"; ObjectID = "sLb-cO-JdR"; */
+"sLb-cO-JdR.title" = "FAQ";
+
+/* Class = "UIButton"; normalTitle = "Today's \nInstruction"; ObjectID = "shF-Ym-Kvf"; */
+"shF-Ym-Kvf.normalTitle" = "Today's \nInstruction";

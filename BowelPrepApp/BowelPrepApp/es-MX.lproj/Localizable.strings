@@ -1,0 +1,74 @@
+/* 
+  Localizable.strings
+  BowelPrepApp
+
+  Created by Guangsha Mou on 3/21/16.
+  Copyright © 2016 UCDMC Bowel Prep. All rights reserved.
+*/
+
+/** Appointment medication strings **/
+"Are you taking any blood thinner?" = "Are you taking any blood thinner?";
+"Are you taking any pain reliever?" = "Are you taking any pain reliever?";
+"Are you taking any insulin?" = "Are you taking any insulin?";
+"Med1" = "Blood Thinner";
+"Med2" = "Pain Reliever";
+"Med3" = "Insulin";
+"No medication conflict" = "No medication conflict";
+
+/** Instruction localized strings **/
+"Day 1 Instruction 1" = "Begin a clear liquid diet the day before your exam (any liquid you could see through, except alcohol). It is import to drink clear liquids throughout the day. You may have water, black coffee, tea, broth, Gatorade, soda, juice, popsicles, Jell-O (not red in color) or anything else you can see through. You may also have hard candies.";
+
+"Day 1 Instruction 2" = "Do not eat solid foods, milk, shakes, protein shakes, or anything that contains fats.";
+
+"Day 1 Instruction 3" = "If you are a diabetic and using insulin or are taking oral diabetic medications, contact your primary care doctor for instructions on adjusting these medications prior to the day of your procedure.";
+
+"Day 1 Instruction 4" = "The solution instructions were also mailed or given with these instructions. Following the instructions on how to prepare the prep before taking it.";
+
+"Day 1 Instruction 5" = "Take the prep as instructed on the solution instruction sheet.";
+
+"Day 1 Instruction 6" = "Keep drinking clear liquids up to 4 hours prior to your procedural start time.";
+
+"Day 2 Instruction 1" = "Do not eat foods that conatin seeds, nuts, corn or salad; nut based spreads such as peanut butter or Nutella, and popcorn.";
+
+"Day 2 Instruction 2" = "Do not take iburprofein (motrin), Advil, Aleve, Naprosyn, or any other medication containing NSAIDs (Vioxx, Celebrex), 5 days prior to your procedure, or your procedure will be cancelled.";
+
+"Day 2 Instruction 3" = "If you take medications to thin your blood such as, aspirin, heparin, coumadin, plavix, warfarin, robaxin, (or other medications similar to these), the doctor who prescribed the medication must inform you whether you can stop taking these medication 5 days prior to your procedure date. In some cases you may continue to take the medication but you must check with your doctor first. Otherwise, your procedure will be cancelled.";
+
+"General Instruction 1" = "You must arrive on time, or your procedure will be cancelled.";
+
+"General Instruction 2" = "You must have a person, who will drive you home with you at the time of check in, and your driver must stay in the hospital, or your procedure will be cancelled.";
+
+"General Instruction 3" = "If you are unable to keep you appointment, you must cancel within 48 hours or you will not be rescheduled.";
+
+/** FAQ localized strings **/
+"All" = "All";
+
+"BowelPrep" = "Bowel Prep";
+
+"Instruction" = "Instruction";
+
+"Miscellaneous" = "Miscellaneous";
+
+"bowelPrep.question1" = "I have completed the first split of my prep and my stools are clear, can I stop and skip the second half?";
+
+"bowelPrep.answer1" = "No you cannot skip the second half. Complete all of them!";
+
+"bowelPrep.question2" = "I have completed the first split of my prep and I have not yet had a single bowel movement, what should I do?";
+
+"bowelPrep.answer2" = "Keep going and finish the second half.";
+
+"bowelPrep.question3" = "I am having nausea and throwing up the prep, what should I do?";
+
+"bowelPrep.answer3" = "Rest a little bit, and keep going.";
+
+"instruction.question1" = "I didn't read the instructions, and have been eating lots of leafy vegetables and/or nuts/high residue foods up until today, what should I do? Should I start the prep or reschedule?";
+
+"instruction.answer1" = "Reschedule before 48 hours prior to your original appointment!";
+
+"instruction.question2" = "I didn't read the instructions and I am on aspirin or a blood thinner and have taken my doses up until today, what should I do?";
+
+"instruction.answer2" = "Talk to the doctor and reschedule.";
+
+"miscellaneous.question1" = "I am ill with (cold, flu, UTI) and don't feel well and don't think I can tolerate the bowel prep, what should I do?";
+
+"miscellaneous.answer1" = "Yes you can. Stay Strong!";

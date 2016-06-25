@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4FFD001CEE8A6F00F97AAD /* PreparationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4FFCFF1CEE8A6F00F97AAD /* PreparationInfo.swift */; };
+		0AF9BDF11CCD83EE0055BEA2 /* ChecklistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9BDF01CCD83EE0055BEA2 /* ChecklistVC.swift */; };
+		1A04A46E1CAEF35000F6ED8D /* LocationMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04A46D1CAEF35000F6ED8D /* LocationMapVC.swift */; };
+		1A04A4761CAEF46800F6ED8D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A04A4751CAEF46800F6ED8D /* MapKit.framework */; };
+		1A4F24A81C9E2A3C00329E3E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F24A71C9E2A3C00329E3E /* CustomButton.swift */; };
+		1A4F24AA1C9E2B5000329E3E /* AnimationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F24A91C9E2B5000329E3E /* AnimationEngine.swift */; };
+		1A4F24AD1C9E2B7900329E3E /* AppointmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F24AC1C9E2B7900329E3E /* AppointmentVC.swift */; };
+		1A4F24AF1C9E3E1D00329E3E /* EditAppointmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F24AE1C9E3E1D00329E3E /* EditAppointmentVC.swift */; };
+		1A4F24B31C9E557300329E3E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F24B21C9E557300329E3E /* CustomTextField.swift */; };
+		1A4F24B51C9E6A8500329E3E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F24B41C9E6A8500329E3E /* Location.swift */; };
+		1A4F24B71C9EFA4500329E3E /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F24B61C9EFA4500329E3E /* Appointment.swift */; };
+		1A4F24BC1C9F9F3100329E3E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F24BA1C9F9F3100329E3E /* Card.swift */; };
+		1A4F24BD1C9F9F3100329E3E /* Card.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4F24BB1C9F9F3100329E3E /* Card.xib */; };
+		1A4F24BF1C9FA04A00329E3E /* InstructionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F24BE1C9FA04A00329E3E /* InstructionVC.swift */; };
+		1A4F24C11C9FA06400329E3E /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F24C01C9FA06400329E3E /* Instruction.swift */; };
+		1A4F24C61CA056E200329E3E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A4F24C81CA056E200329E3E /* Localizable.strings */; };
+		1A4F24CB1CA0584800329E3E /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F24CA1CA0584800329E3E /* Util.swift */; };
+		1A4F24D31CA0E8B300329E3E /* FAQMasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F24D21CA0E8B300329E3E /* FAQMasterVC.swift */; };
+		1A4F24D51CA0EC5F00329E3E /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F24D41CA0EC5F00329E3E /* FAQ.swift */; };
+		1A4F24D71CA0FEA900329E3E /* FAQDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F24D61CA0FEA900329E3E /* FAQDetailVC.swift */; };
+		1A7369661CBD708D00C7CE2D /* FAQModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7369651CBD708D00C7CE2D /* FAQModel.swift */; };
+		1A73696A1CBEF6C800C7CE2D /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7369691CBEF6C800C7CE2D /* Medication.swift */; };
+		1A9DF4971CF8C5700077710E /* DisclaimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9DF4961CF8C5700077710E /* DisclaimerVC.swift */; };
+		1A9DF4991CF8CE500077710E /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9DF4981CF8CE500077710E /* Notification.swift */; };
+		1AC2DF6D1CD1365100C85A4A /* CheckCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AC2DF6C1CD1365100C85A4A /* CheckCell.xib */; };
+		1AC2DF6F1CD1366000C85A4A /* CheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2DF6E1CD1366000C85A4A /* CheckCell.swift */; };
+		3D33DEBB1CCD8AFB00924F40 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D33DEBA1CCD8AFB00924F40 /* Checklist.swift */; };
+		3D33DEBF1CCDB6DE00924F40 /* BulletCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D33DEBE1CCDB6DE00924F40 /* BulletCells.swift */; };
+		3D33DEC11CCDB70700924F40 /* BulletCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D33DEC01CCDB70700924F40 /* BulletCell.xib */; };
+		C324AE4F1CC20EA000422A2E /* EditAppointmentP3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C324AE4E1CC20EA000422A2E /* EditAppointmentP3VC.swift */; };
+		C34661901C56D092000CCBCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C346618F1C56D092000CCBCE /* AppDelegate.swift */; };
+		C34661971C56D092000CCBCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34661951C56D092000CCBCE /* Main.storyboard */; };
+		C34661991C56D092000CCBCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34661981C56D092000CCBCE /* Assets.xcassets */; };
+		C346619C1C56D092000CCBCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C346619A1C56D092000CCBCE /* LaunchScreen.storyboard */; };
+		C359224F1CC1BDB300BCD7E4 /* EditAppointmentP2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C359224E1CC1BDB300BCD7E4 /* EditAppointmentP2VC.swift */; };
+		C39AE5271CC9962C002FBE3B /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39AE5261CC9962C002FBE3B /* Method.swift */; };
+		C39C43791CC22C010033C350 /* SummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39C43781CC22C010033C350 /* SummaryVC.swift */; };
+		C4EAF17547E070B78BBCFC06 /* Pods_BowelPrepApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CACD4931D36DB1D71CC281 /* Pods_BowelPrepApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A4FFCFF1CEE8A6F00F97AAD /* PreparationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreparationInfo.swift; sourceTree = "<group>"; };
+		0AF9BDF01CCD83EE0055BEA2 /* ChecklistVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistVC.swift; sourceTree = "<group>"; };
+		1A04A46D1CAEF35000F6ED8D /* LocationMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationMapVC.swift; sourceTree = "<group>"; };
+		1A04A46F1CAEF44000F6ED8D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		1A04A4701CAEF44000F6ED8D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		1A04A4711CAEF44000F6ED8D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1A04A4721CAEF44700F6ED8D /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Main.strings"; sourceTree = "<group>"; };
+		1A04A4731CAEF44700F6ED8D /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		1A04A4741CAEF44700F6ED8D /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1A04A4751CAEF46800F6ED8D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1A4F24A31C9E29EF00329E3E /* BowelPrepApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BowelPrepApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		1A4F24A71C9E2A3C00329E3E /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		1A4F24A91C9E2B5000329E3E /* AnimationEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationEngine.swift; sourceTree = "<group>"; };
+		1A4F24AC1C9E2B7900329E3E /* AppointmentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentVC.swift; sourceTree = "<group>"; };
+		1A4F24AE1C9E3E1D00329E3E /* EditAppointmentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditAppointmentVC.swift; sourceTree = "<group>"; };
+		1A4F24B21C9E557300329E3E /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		1A4F24B41C9E6A8500329E3E /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		1A4F24B61C9EFA4500329E3E /* Appointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		1A4F24BA1C9F9F3100329E3E /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		1A4F24BB1C9F9F3100329E3E /* Card.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Card.xib; sourceTree = "<group>"; };
+		1A4F24BE1C9FA04A00329E3E /* InstructionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionVC.swift; sourceTree = "<group>"; };
+		1A4F24C01C9FA06400329E3E /* Instruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
+		1A4F24C71CA056E200329E3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1A4F24CA1CA0584800329E3E /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		1A4F24D21CA0E8B300329E3E /* FAQMasterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQMasterVC.swift; sourceTree = "<group>"; };
+		1A4F24D41CA0EC5F00329E3E /* FAQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
+		1A4F24D61CA0FEA900329E3E /* FAQDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQDetailVC.swift; sourceTree = "<group>"; };
+		1A7369651CBD708D00C7CE2D /* FAQModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQModel.swift; sourceTree = "<group>"; };
+		1A7369691CBEF6C800C7CE2D /* Medication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		1A9DF4961CF8C5700077710E /* DisclaimerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclaimerVC.swift; sourceTree = "<group>"; };
+		1A9DF4981CF8CE500077710E /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		1AC2DF6C1CD1365100C85A4A /* CheckCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckCell.xib; sourceTree = "<group>"; };
+		1AC2DF6E1CD1366000C85A4A /* CheckCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckCell.swift; sourceTree = "<group>"; };
+		20CACD4931D36DB1D71CC281 /* Pods_BowelPrepApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BowelPrepApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D33DEBA1CCD8AFB00924F40 /* Checklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
+		3D33DEBE1CCDB6DE00924F40 /* BulletCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BulletCells.swift; sourceTree = "<group>"; };
+		3D33DEC01CCDB70700924F40 /* BulletCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BulletCell.xib; sourceTree = "<group>"; };
+		78B0B62945D5E5A86CB9AF86 /* Pods-BowelPrepApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BowelPrepApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BowelPrepApp/Pods-BowelPrepApp.release.xcconfig"; sourceTree = "<group>"; };
+		C324AE4E1CC20EA000422A2E /* EditAppointmentP3VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditAppointmentP3VC.swift; sourceTree = "<group>"; };
+		C346618C1C56D092000CCBCE /* BowelPrepApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BowelPrepApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C346618F1C56D092000CCBCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C34661961C56D092000CCBCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C34661981C56D092000CCBCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C346619B1C56D092000CCBCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C346619D1C56D092000CCBCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C359224E1CC1BDB300BCD7E4 /* EditAppointmentP2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditAppointmentP2VC.swift; sourceTree = "<group>"; };
+		C39AE5261CC9962C002FBE3B /* Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		C39C43781CC22C010033C350 /* SummaryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryVC.swift; sourceTree = "<group>"; };
+		FA68DBE079FEE94B5FE8732C /* Pods-BowelPrepApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BowelPrepApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BowelPrepApp/Pods-BowelPrepApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C34661891C56D092000CCBCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A04A4761CAEF46800F6ED8D /* MapKit.framework in Frameworks */,
+				C4EAF17547E070B78BBCFC06 /* Pods_BowelPrepApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E4044539646B0CC3361A4A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A04A4751CAEF46800F6ED8D /* MapKit.framework */,
+				20CACD4931D36DB1D71CC281 /* Pods_BowelPrepApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A4F24A01C9DE55900329E3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A4F24B61C9EFA4500329E3E /* Appointment.swift */,
+				1A4F24B41C9E6A8500329E3E /* Location.swift */,
+				1A4F24C01C9FA06400329E3E /* Instruction.swift */,
+				1A4F24D41CA0EC5F00329E3E /* FAQ.swift */,
+				1A7369651CBD708D00C7CE2D /* FAQModel.swift */,
+				1A7369691CBEF6C800C7CE2D /* Medication.swift */,
+				C39AE5261CC9962C002FBE3B /* Method.swift */,
+				3D33DEBA1CCD8AFB00924F40 /* Checklist.swift */,
+				1A9DF4981CF8CE500077710E /* Notification.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1A4F24A11C9DE56100329E3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A4F24A71C9E2A3C00329E3E /* CustomButton.swift */,
+				1A4F24B21C9E557300329E3E /* CustomTextField.swift */,
+				1A4F24BA1C9F9F3100329E3E /* Card.swift */,
+				1A4F24BB1C9F9F3100329E3E /* Card.xib */,
+				3D33DEBE1CCDB6DE00924F40 /* BulletCells.swift */,
+				3D33DEC01CCDB70700924F40 /* BulletCell.xib */,
+				1AC2DF6E1CD1366000C85A4A /* CheckCell.swift */,
+				1AC2DF6C1CD1365100C85A4A /* CheckCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1A4F24A21C9DE56500329E3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A4F24AC1C9E2B7900329E3E /* AppointmentVC.swift */,
+				1A4F24AE1C9E3E1D00329E3E /* EditAppointmentVC.swift */,
+				C359224E1CC1BDB300BCD7E4 /* EditAppointmentP2VC.swift */,
+				C324AE4E1CC20EA000422A2E /* EditAppointmentP3VC.swift */,
+				C39C43781CC22C010033C350 /* SummaryVC.swift */,
+				1A4F24BE1C9FA04A00329E3E /* InstructionVC.swift */,
+				1A4F24D21CA0E8B300329E3E /* FAQMasterVC.swift */,
+				1A4F24D61CA0FEA900329E3E /* FAQDetailVC.swift */,
+				1A04A46D1CAEF35000F6ED8D /* LocationMapVC.swift */,
+				0AF9BDF01CCD83EE0055BEA2 /* ChecklistVC.swift */,
+				0A4FFCFF1CEE8A6F00F97AAD /* PreparationInfo.swift */,
+				1A9DF4961CF8C5700077710E /* DisclaimerVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1A4F24AB1C9E2B5300329E3E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1A4F24A91C9E2B5000329E3E /* AnimationEngine.swift */,
+				1A4F24CA1CA0584800329E3E /* Util.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		7EBE4321CE67233016C7BA7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA68DBE079FEE94B5FE8732C /* Pods-BowelPrepApp.debug.xcconfig */,
+				78B0B62945D5E5A86CB9AF86 /* Pods-BowelPrepApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C34661831C56D092000CCBCE = {
+			isa = PBXGroup;
+			children = (
+				C346618E1C56D092000CCBCE /* BowelPrepApp */,
+				C346618D1C56D092000CCBCE /* Products */,
+				7EBE4321CE67233016C7BA7B /* Pods */,
+				0E4044539646B0CC3361A4A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C346618D1C56D092000CCBCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C346618C1C56D092000CCBCE /* BowelPrepApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C346618E1C56D092000CCBCE /* BowelPrepApp */ = {
+			isa = PBXGroup;
+			children = (
+				1A4F24AB1C9E2B5300329E3E /* Util */,
+				1A4F24A01C9DE55900329E3E /* Model */,
+				1A4F24A11C9DE56100329E3E /* View */,
+				1A4F24A21C9DE56500329E3E /* Controller */,
+				C346618F1C56D092000CCBCE /* AppDelegate.swift */,
+				C34661951C56D092000CCBCE /* Main.storyboard */,
+				1A4F24C81CA056E200329E3E /* Localizable.strings */,
+				C34661981C56D092000CCBCE /* Assets.xcassets */,
+				C346619A1C56D092000CCBCE /* LaunchScreen.storyboard */,
+				C346619D1C56D092000CCBCE /* Info.plist */,
+				1A4F24A31C9E29EF00329E3E /* BowelPrepApp-Bridging-Header.h */,
+			);
+			path = BowelPrepApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C346618B1C56D092000CCBCE /* BowelPrepApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34661A01C56D092000CCBCE /* Build configuration list for PBXNativeTarget "BowelPrepApp" */;
+			buildPhases = (
+				B9F5548C57CA0CBBC936F2A6 /* Check Pods Manifest.lock */,
+				C34661881C56D092000CCBCE /* Sources */,
+				C34661891C56D092000CCBCE /* Frameworks */,
+				C346618A1C56D092000CCBCE /* Resources */,
+				8FBF67C1BD06A5A118C00E07 /* Embed Pods Frameworks */,
+				AFF450E828360E39D8E857D0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BowelPrepApp;
+			productName = BowelPrepApp;
+			productReference = C346618C1C56D092000CCBCE /* BowelPrepApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C34661841C56D092000CCBCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "UCDMC Bowel Prep";
+				TargetAttributes = {
+					C346618B1C56D092000CCBCE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C34661871C56D092000CCBCE /* Build configuration list for PBXProject "BowelPrepApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				"es-MX",
+			);
+			mainGroup = C34661831C56D092000CCBCE;
+			productRefGroup = C346618D1C56D092000CCBCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C346618B1C56D092000CCBCE /* BowelPrepApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C346618A1C56D092000CCBCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4F24C61CA056E200329E3E /* Localizable.strings in Resources */,
+				3D33DEC11CCDB70700924F40 /* BulletCell.xib in Resources */,
+				1AC2DF6D1CD1365100C85A4A /* CheckCell.xib in Resources */,
+				C346619C1C56D092000CCBCE /* LaunchScreen.storyboard in Resources */,
+				C34661991C56D092000CCBCE /* Assets.xcassets in Resources */,
+				C34661971C56D092000CCBCE /* Main.storyboard in Resources */,
+				1A4F24BD1C9F9F3100329E3E /* Card.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FBF67C1BD06A5A118C00E07 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BowelPrepApp/Pods-BowelPrepApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFF450E828360E39D8E857D0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BowelPrepApp/Pods-BowelPrepApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9F5548C57CA0CBBC936F2A6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C34661881C56D092000CCBCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4F24D71CA0FEA900329E3E /* FAQDetailVC.swift in Sources */,
+				1A4F24AF1C9E3E1D00329E3E /* EditAppointmentVC.swift in Sources */,
+				C359224F1CC1BDB300BCD7E4 /* EditAppointmentP2VC.swift in Sources */,
+				1A4F24BC1C9F9F3100329E3E /* Card.swift in Sources */,
+				1A4F24A81C9E2A3C00329E3E /* CustomButton.swift in Sources */,
+				1A4F24B31C9E557300329E3E /* CustomTextField.swift in Sources */,
+				1A4F24D31CA0E8B300329E3E /* FAQMasterVC.swift in Sources */,
+				C39C43791CC22C010033C350 /* SummaryVC.swift in Sources */,
+				1A4F24C11C9FA06400329E3E /* Instruction.swift in Sources */,
+				1A4F24B71C9EFA4500329E3E /* Appointment.swift in Sources */,
+				1A4F24D51CA0EC5F00329E3E /* FAQ.swift in Sources */,
+				C34661901C56D092000CCBCE /* AppDelegate.swift in Sources */,
+				1A4F24CB1CA0584800329E3E /* Util.swift in Sources */,
+				1A4F24AD1C9E2B7900329E3E /* AppointmentVC.swift in Sources */,
+				C324AE4F1CC20EA000422A2E /* EditAppointmentP3VC.swift in Sources */,
+				3D33DEBF1CCDB6DE00924F40 /* BulletCells.swift in Sources */,
+				1AC2DF6F1CD1366000C85A4A /* CheckCell.swift in Sources */,
+				1A73696A1CBEF6C800C7CE2D /* Medication.swift in Sources */,
+				1A4F24BF1C9FA04A00329E3E /* InstructionVC.swift in Sources */,
+				3D33DEBB1CCD8AFB00924F40 /* Checklist.swift in Sources */,
+				1A4F24AA1C9E2B5000329E3E /* AnimationEngine.swift in Sources */,
+				1A9DF4991CF8CE500077710E /* Notification.swift in Sources */,
+				0A4FFD001CEE8A6F00F97AAD /* PreparationInfo.swift in Sources */,
+				0AF9BDF11CCD83EE0055BEA2 /* ChecklistVC.swift in Sources */,
+				1A7369661CBD708D00C7CE2D /* FAQModel.swift in Sources */,
+				1A04A46E1CAEF35000F6ED8D /* LocationMapVC.swift in Sources */,
+				C39AE5271CC9962C002FBE3B /* Method.swift in Sources */,
+				1A4F24B51C9E6A8500329E3E /* Location.swift in Sources */,
+				1A9DF4971CF8C5700077710E /* DisclaimerVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A4F24C81CA056E200329E3E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A4F24C71CA056E200329E3E /* en */,
+				1A04A4711CAEF44000F6ED8D /* es */,
+				1A04A4741CAEF44700F6ED8D /* es-MX */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C34661951C56D092000CCBCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34661961C56D092000CCBCE /* Base */,
+				1A04A46F1CAEF44000F6ED8D /* es */,
+				1A04A4721CAEF44700F6ED8D /* es-MX */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C346619A1C56D092000CCBCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C346619B1C56D092000CCBCE /* Base */,
+				1A04A4701CAEF44000F6ED8D /* es */,
+				1A04A4731CAEF44700F6ED8D /* es-MX */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C346619E1C56D092000CCBCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C346619F1C56D092000CCBCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C34661A11C56D092000CCBCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA68DBE079FEE94B5FE8732C /* Pods-BowelPrepApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = BowelPrepApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucdmcbowelprep.BowelPrepApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BowelPrepApp/BowelPrepApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C34661A21C56D092000CCBCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B0B62945D5E5A86CB9AF86 /* Pods-BowelPrepApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = BowelPrepApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucdmcbowelprep.BowelPrepApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BowelPrepApp/BowelPrepApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C34661871C56D092000CCBCE /* Build configuration list for PBXProject "BowelPrepApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C346619E1C56D092000CCBCE /* Debug */,
+				C346619F1C56D092000CCBCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34661A01C56D092000CCBCE /* Build configuration list for PBXNativeTarget "BowelPrepApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34661A11C56D092000CCBCE /* Debug */,
+				C34661A21C56D092000CCBCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C34661841C56D092000CCBCE /* Project object */;
+}
